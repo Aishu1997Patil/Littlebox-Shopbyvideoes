@@ -5,8 +5,6 @@
 }
 
 
-
-
 body {
     margin: 0;
     padding: 0;
@@ -20,17 +18,17 @@ body {
     display:flex;
 justify-content: space-between;
 &>img{
-width:450px;
-height:220px;
+width:45px;
+height:25px;
 }
 &>svg{
-    width:400px;
-    height:300px;
+    width:45px;
+    height:35px;
 }
 }
 .soundicon{
-    width:150px;
-    height:100px;
+    width:25px;
+    height:15px;
    
     &>svg >path{
         width:100%;
@@ -41,12 +39,12 @@ height:220px;
     width: 50vw; 
     height:auto;
    
-    padding: 20px; 
+    padding: 1px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column; 
-    gap: 20px; 
+    gap: 1px; 
     
     align-items: center;
 }
@@ -54,15 +52,8 @@ height:220px;
 video {
     width: 40%; 
     height:80vh;
-    margin:100px 0 ;
-    border-radius: 8px; 
+    margin:10px 0 ;
+    border-radius: 3px; 
     display:inline-block;
-   
-
-
-}
-
-
-
-
+   }
 
